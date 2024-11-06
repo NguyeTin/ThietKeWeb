@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover, .hotline {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('8bda8cb6-acb7-4e62-8c57-49ddfdd1f9f7.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero button {
+    padding: 0.7em 2em;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.about, .courses, .english-tips, .news, .contact {
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.courses .course-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course {
+    background-color: white;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.course button {
+    padding: 0.5em 1.5em;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.news .news-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-item {
+    background-color: white;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact{
+    background-color: #c83f3f;
+}
+.contact p {
+    font-size: 1.2em;
+    
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+.english-tips{
+    background-color: white;
+   
+}
